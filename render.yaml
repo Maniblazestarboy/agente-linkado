@@ -1,0 +1,26 @@
+services:
+  # Define o nosso serviço principal do bot
+  - type: web
+    name: linkado-bot
+    env: node
+    # O plano "Free" pode não ser suficiente por causa do Chrome. 
+    # O "Starter" é mais garantido. Você pode começar no Free e fazer o upgrade se necessário.
+    plan: free
+    # Define os "build packs" para instalar o Node.js e as dependências do Puppeteer/Chrome
+    buildPacks:
+      - type: node
+        version: "18.17.1" # Uma versão estável do Node.js
+      - url: https://github.com/render-community/node-puppeteer
+    # Comando para construir o projeto (instalar dependências)
+    buildCommand: "npm install"
+    # Comando para iniciar o bot
+    startCommand: "node bot.js"
+    # Define um disco persistente para salvar a sessão do WhatsApp
+    disks:
+      - name: wwebjs-auth
+        mountPath: /app/.wwebjs_auth
+        sizeGB: 1
+    # Garante que o serviço não pare se não receber tráfego web (importante para um bot)
+    healthCheckPath: /
+    # Política de reinicialização
+    restartPolicy: on-failure
