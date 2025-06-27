@@ -1,15 +1,19 @@
-2025/06/26-17:04:02.293 6858 Reusing MANIFEST C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/06/26-17:04:02.294 6858 Recovering log #136
-2025/06/26-17:04:02.513 6858 Reusing old log C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000136.log 
-2025/06/26-17:04:07.874 6e60 Manual compaction at level-0 from '\x005\x00\x00\x00' @ 72057594037927935 : 1 .. '\x006\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/06/26-17:07:38.135 6858 Level-0 table #142: started
-2025/06/26-17:07:38.344 6858 Level-0 table #142: 1212730 bytes OK
-2025/06/26-17:07:38.424 6858 Delete type=0 #136
-2025/06/26-17:09:19.261 5194 Compacting 1@1 + 2@2 files
-2025/06/26-17:09:19.848 5194 Generated table #143@1: 43844 keys, 2202107 bytes
-2025/06/26-17:09:20.222 5194 Generated table #144@1: 60658 keys, 1466502 bytes
-2025/06/26-17:09:20.222 5194 Compacted 1@1 + 2@2 files => 3668609 bytes
-2025/06/26-17:09:20.248 5194 compacted to: files[ 0 0 2 0 0 0 0 ]
-2025/06/26-17:09:20.249 5194 Delete type=2 #138
-2025/06/26-17:09:20.249 5194 Delete type=2 #139
-2025/06/26-17:09:20.249 5194 Delete type=2 #142
+2025/06/27-21:32:44.443 3038 Reusing MANIFEST C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/27-21:32:44.444 3038 Recovering log #263
+2025/06/27-21:32:44.600 3038 Reusing old log C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000263.log 
+2025/06/27-21:32:50.577 7a2c Level-0 table #271: started
+2025/06/27-21:32:50.647 7a2c Level-0 table #271: 217360 bytes OK
+2025/06/27-21:32:50.690 7a2c Delete type=0 #263
+2025/06/27-21:32:50.691 3038 Manual compaction at level-0 from '\x00@\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00A\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/27-21:32:59.264 7a2c Compacting 1@1 + 4@2 files
+2025/06/27-21:32:59.856 7a2c Generated table #272@1: 89485 keys, 2240992 bytes
+2025/06/27-21:33:00.420 7a2c Generated table #273@1: 60803 keys, 2228758 bytes
+2025/06/27-21:33:01.469 7a2c Generated table #274@1: 66153 keys, 2206707 bytes
+2025/06/27-21:33:01.579 7a2c Generated table #275@1: 8914 keys, 177762 bytes
+2025/06/27-21:33:01.579 7a2c Compacted 1@1 + 4@2 files => 6854219 bytes
+2025/06/27-21:33:01.602 7a2c compacted to: files[ 0 0 4 0 0 0 0 ]
+2025/06/27-21:33:01.603 7a2c Delete type=2 #265
+2025/06/27-21:33:01.603 7a2c Delete type=2 #266
+2025/06/27-21:33:01.604 7a2c Delete type=2 #267
+2025/06/27-21:33:01.604 7a2c Delete type=2 #268
+2025/06/27-21:33:01.604 7a2c Delete type=2 #271

@@ -1,3 +1,5 @@
-2025/06/26-17:04:00.833 6e60 Reusing MANIFEST C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2025/06/26-17:04:00.834 6e60 Recovering log #4
-2025/06/26-17:04:00.835 6e60 Reusing old log C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
+2025/06/27-21:32:43.155 1f08 Reusing MANIFEST C:\Users\neite\Desktop\linkado-whatsapp-bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2025/06/27-21:32:43.156 1f08 Recovering log #7
+2025/06/27-21:32:43.156 1f08 Level-0 table #10: started
+2025/06/27-21:32:43.202 1f08 Level-0 table #10: 16402 bytes OK
+2025/06/27-21:32:43.247 1f08 Delete type=0 #7

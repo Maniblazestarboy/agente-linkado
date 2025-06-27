@@ -1,2 +1,11 @@
+# Dependências do Node.js
 node_modules/
-.env/
+
+# Arquivos de ambiente com chaves secretas
+.env
+
+# Pasta de sessão do whatsapp-web.js
+.wwebjs_auth/
+
+# Logs de debug do npm
+npm-debug.log*
